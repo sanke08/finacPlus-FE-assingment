@@ -3,7 +3,7 @@ const currentImports = {};
       let moduleMap = {
 "./Library":()=>{
       dynamicLoadingCss(["style-BynCwQie.css"], false, './Library');
-      return __federation_import('/finacPlus-FE-assingment/main/assets/__federation_expose_Library-D_PjXssW.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
+      return __federation_import('/finacPlus-FE-assingment/music_lib/assets/__federation_expose_Library-D_PjXssW.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
       const seen = {};
       const dynamicLoadingCss = (cssFilePaths, dontAppendStylesToHead, exposeItemName) => {
         const metaUrl = import.meta.url;
@@ -13,7 +13,7 @@ const currentImports = {};
         }
 
         const curUrl = metaUrl.substring(0, metaUrl.lastIndexOf('remoteEntry.js'));
-        const base = '/finacPlus-FE-assingment/main/';
+        const base = '/finacPlus-FE-assingment/music_lib/';
         'assets';
 
         cssFilePaths.forEach(cssPath => {
