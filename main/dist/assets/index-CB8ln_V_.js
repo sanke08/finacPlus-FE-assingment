@@ -16268,7 +16268,7 @@ function requireClient () {
 var clientExports = requireClient();
 
 const remotesMap = {
-'musicLibrary':{url:'http://localhost:5001/assets/remoteEntry.js',format:'esm',from:'vite'}
+'musicLibrary':{url:'https://sanke08.github.io/finacPlus-FE-assingment/music_lib/assets/remoteEntry.js',format:'esm',from:'vite'}
 };
                 const currentImports = {};
 

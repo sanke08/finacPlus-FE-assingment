@@ -6,13 +6,14 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base:"/finacPlus-FE-assingment/main/",
   plugins: [
     react(),
     tailwindcss(),
     federation({
       name: "main",
       remotes: {
-        musicLibrary: "http://localhost:5001/assets/remoteEntry.js"
+        musicLibrary: "https://sanke08.github.io/finacPlus-FE-assingment/music_lib/assets/remoteEntry.js"
       },
       shared: ["react", "react-dom"]
     })
